@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Mail,
   MessageCircle,
@@ -11,6 +11,21 @@ import GoogleTranslate from "./googleTranslate";
 import back from "./assets/back.jpg"
 
 export default function App() {
+
+  /* Smartsupp Live Chat script*/
+  useEffect(() => {
+    window._smartsupp = window._smartsupp || {};
+    window._smartsupp.key = '9c1b1541f033b79e1fa02b1252413b66f62f8054';
+
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://www.smartsuppchat.com/loader.js?';
+
+    document.body.appendChild(script);
+  }, []);
+
+
   const [openId, setOpenId] = useState(null);
 
   return (
