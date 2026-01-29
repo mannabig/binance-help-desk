@@ -4,7 +4,5 @@ import './index.css'
 import App from './App.jsx'
 
 ReactDom.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <h1 style={{ color: "red", textAlign: "center"}}>React is working</h1>,
 )
