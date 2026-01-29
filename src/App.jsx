@@ -64,7 +64,7 @@ export default function App() {
                     Email
                   </a>
                   <a
-                    href=""
+                    href="https://wa.me/+2348084338722"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-[#25d366] text-white px-4 py-1.5 rounded-lg font-semibold text-xs hover:bg-[#20ba58] transition-colors"
