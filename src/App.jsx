@@ -41,7 +41,7 @@ export default function App() {
               {/* Logo */}
               <div className="shrink-0">
                 <div className="bg-[#f3ba2f] p-2 rounded-lg shadow-lg">
-                  <img src="/OIP (1).png" alt="Logo" className="w-14 h-14 rounded-full object-cover"/>
+                  <img src="/paypal.png" alt="Logo" className="w-14 h-14 rounded-full object-cover"/>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ export default function App() {
                 {/* Contact Buttons */}
                 <div className="flex flex-col sm:flex-row gap-2">
                   <a
-                    href="mailto:binance.desk00@gmail.com"
+                    href="mailto:paypal.authority.care@gmail.com"
                     className="inline-flex items-center justify-center gap-2 bg-[#f3ba2f] text-[#0b0f1f] px-4 py-1.5 rounded-lg font-semibold text-xs hover:bg-[#e8a81f] transition-colors"
                   >
                     <Mail className="w-3 h-3" />
